@@ -1,0 +1,52 @@
+# VS user-specific
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# Build outputs
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+ARM*/
+ARM64*/
+build/
+out/
+bin/
+obj/
+ipch/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.log
+*.lastbuildstate
+*.cache
+*.db
+*.opendb
+*.VC.db
+
+# Intermediates
+*.pch
+*.exp
+*.lib
+*.iobj
+*.ipdb
+*.rsp
+
+# Misc
+*.exe
+*.dll
+*.map
+
+# CMake (if ever added)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeSettings.json
+
+# OS
+Thumbs.db
+.DS_Store
