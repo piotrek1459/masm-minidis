@@ -1,1 +1,0 @@
-00401000:  BF BE BA FE CA    mov edi, 0xCAFEBABE
