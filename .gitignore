@@ -27,6 +27,7 @@ ipch/
 *.db
 *.opendb
 *.VC.db
+test_output/
 
 # Intermediates
 *.pch
