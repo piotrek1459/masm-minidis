@@ -1,0 +1,8 @@
+00401000:  0F 84 01 00 00 00  je 0x00401007
+00401006:  FF D0             call eax
+00401008:  FF 10             call [eax]
+0040100A:  FF 54 88 10       call [eax+ecx*4+0x10]
+0040100E:  FF E0             jmp eax
+00401010:  FF 20             jmp [eax]
+00401012:  FF 64 88 10       jmp [eax+ecx*4+0x10]
+00401016:  0F 8F E4 FF FF FF  jg 0x00401000

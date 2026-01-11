@@ -19,9 +19,9 @@
 | M0        | C ↔ ASM bridge, I/O, printing        | ✅      |
 | M1        | NOP (0x90), RET (0xC3), INT3 (0xCC)  | ✅      |
 | M1.5      | MOV r32, imm32 (0xB8–0xBF)           | ✅      |
-| M2        | PUSH/POP r32 (0x50–0x5F, 0x58–0x5F)  | ⏳ Next |
-| M3        | ModR/M + SIB addressing              | ⏳      |
-| M4        | Control-flow (CALL/JMP/Jcc) + polish | ⏳      |
+| M2        | PUSH/POP r32 (0x50–0x5F, 0x58–0x5F)  | ✅      |
+| M3        | ModR/M + SIB addressing              | ✅      |
+| M4        | Control-flow (CALL/JMP/Jcc) + polish | ✅      |
 
 
 ## 🎯 Goals
